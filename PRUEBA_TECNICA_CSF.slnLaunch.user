@@ -1,0 +1,53 @@
+[
+  {
+    "Name": "Ven-Mov",
+    "Projects": [
+      {
+        "Path": "src\\Servicios\\Movimientos\\Movimientos.API\\Movimientos.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Servicios\\Ventas\\Ventas.PI\\Ventas.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Com-Mov",
+    "Projects": [
+      {
+        "Path": "src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Servicios\\Movimientos\\Movimientos.API\\Movimientos.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Todos",
+    "Projects": [
+      {
+        "Path": "src\\Servicios\\Ventas\\Ventas.PI\\Ventas.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Servicios\\Productos\\Productos.API\\Productos.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Servicios\\Movimientos\\Movimientos.API\\Movimientos.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AuthService.API\\AuthService.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
