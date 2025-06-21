@@ -1,0 +1,396 @@
+{
+	"info": {
+		"_postman_id": "b2cb0f09-fe64-417b-b687-b52abf09b4a7",
+		"name": "CSF",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36499431"
+	},
+	"item": [
+		{
+			"name": "Listar Ventas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTMzOTUxLCJleHAiOjE3NTA1MzU3NTAsImlhdCI6MTc1MDUzMzk1MSwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.ULwiULvPZAO3IBl3xeHKIJYcsmqCP-fEtoBGof4LOy4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7001/api/ventas/Listar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"ventas",
+						"Listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarProductos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/Productos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"Productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarMovimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTMzOTUxLCJleHAiOjE3NTA1MzU3NTAsImlhdCI6MTc1MDUzMzk1MSwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.ULwiULvPZAO3IBl3xeHKIJYcsmqCP-fEtoBGof4LOy4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7003/api/movimientos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7003",
+					"path": [
+						"api",
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarProductoPorId",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/productos/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"productos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarVenta",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTIxOTYwLCJleHAiOjE3NTA1MjM3NTksImlhdCI6MTc1MDUyMTk2MCwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.eXBY9uzv0rhRz5o_8O5M5V53nx8RiG5arysnrqTQSNw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"detalles\": [\r\n    {\r\n      \"id_Producto\": 1,\r\n      \"cantidad\": 10,\r\n      \"precio\": 20\r\n    },\r\n    {\r\n      \"id_Producto\": 7,\r\n      \"cantidad\": 5,\r\n      \"precio\": 100\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7001/api/ventas/Registrar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"ventas",
+						"Registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"admin\",\r\n    \"Password\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7005/api/Auth/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7005",
+					"path": [
+						"api",
+						"Auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarProductoId",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTIxOTYwLCJleHAiOjE3NTA1MjM3NTksImlhdCI6MTc1MDUyMTk2MCwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.eXBY9uzv0rhRz5o_8O5M5V53nx8RiG5arysnrqTQSNw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/Productos/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"Productos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarProducto",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTIxOTYwLCJleHAiOjE3NTA1MjM3NTksImlhdCI6MTc1MDUyMTk2MCwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.eXBY9uzv0rhRz5o_8O5M5V53nx8RiG5arysnrqTQSNw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre_producto\": \"Agua\",\r\n  \"nroLote\": \"2121\",\r\n  \"costo\": 10,\r\n  \"precioVenta\": 13\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/Productos/Registrar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"Productos",
+						"Registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarVenta",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTIxOTYwLCJleHAiOjE3NTA1MjM3NTksImlhdCI6MTc1MDUyMTk2MCwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.eXBY9uzv0rhRz5o_8O5M5V53nx8RiG5arysnrqTQSNw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"detalles\": [\r\n    {\r\n      \"id_Producto\": 1,\r\n      \"cantidad\": 2,\r\n      \"precio\": 10\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7002/api/Compras/Registrar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7002",
+					"path": [
+						"api",
+						"Compras",
+						"Registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarCompra",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTIxOTYwLCJleHAiOjE3NTA1MjM3NTksImlhdCI6MTc1MDUyMTk2MCwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.eXBY9uzv0rhRz5o_8O5M5V53nx8RiG5arysnrqTQSNw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"detalles\": [\r\n    {\r\n      \"id_Producto\": 1,\r\n      \"cantidad\": 10,\r\n      \"precio\": 20\r\n    },\r\n    {\r\n      \"id_Producto\": 7,\r\n      \"cantidad\": 5,\r\n      \"precio\": 100\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7002/api/compras/Registrar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7002",
+					"path": [
+						"api",
+						"compras",
+						"Registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarCompras",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzUwNTMzOTUxLCJleHAiOjE3NTA1MzU3NTAsImlhdCI6MTc1MDUzMzk1MSwiaXNzIjoiVHVBcGkiLCJhdWQiOiJUdUFwaVVzdWFyaW9zIn0.ULwiULvPZAO3IBl3xeHKIJYcsmqCP-fEtoBGof4LOy4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7002/api/Compras",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7002",
+					"path": [
+						"api",
+						"Compras"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
