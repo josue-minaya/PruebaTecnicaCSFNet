@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PruebaTecnicaCSFNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAB87D4-444C-4071-AE33-CF31BD3EAEC5}|src\\Servicios\\Productos\\Productos.API\\Productos.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\productos\\productos.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BAB87D4-444C-4071-AE33-CF31BD3EAEC5}|src\\Servicios\\Productos\\Productos.API\\Productos.API.csproj|solutionrelative:src\\servicios\\productos\\productos.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC8E1AF-4A1E-6428-063D-F90F4D6EA330}|src\\Servicios\\Compras\\Compras.Aplicacion\\Compras.Aplicacion.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.aplicacion\\service\\compraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC8E1AF-4A1E-6428-063D-F90F4D6EA330}|src\\Servicios\\Compras\\Compras.Aplicacion\\Compras.Aplicacion.csproj|solutionrelative:src\\servicios\\compras\\compras.aplicacion\\service\\compraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7C33D5-426D-E829-3F63-BE778BE7EEA0}|src\\Servicios\\Ventas\\Ventas.Aplicacion\\Ventas.Aplicacion.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\ventas\\ventas.aplicacion\\service\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7C33D5-426D-E829-3F63-BE778BE7EEA0}|src\\Servicios\\Ventas\\Ventas.Aplicacion\\Ventas.Aplicacion.csproj|solutionrelative:src\\servicios\\ventas\\ventas.aplicacion\\service\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE4A48-C742-40CC-A900-582C9F8DB442}|src\\Servicios\\Ventas\\Ventas.PI\\Ventas.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\ventas\\ventas.pi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAE4A48-C742-40CC-A900-582C9F8DB442}|src\\Servicios\\Ventas\\Ventas.PI\\Ventas.API.csproj|solutionrelative:src\\servicios\\ventas\\ventas.pi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1135DA0D-3F56-4825-B19F-8689977C31D0}|src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1135DA0D-3F56-4825-B19F-8689977C31D0}|src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj|solutionrelative:src\\servicios\\compras\\compras.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:43:48.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "RelativeToolTip": "src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:34:48.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentaService.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "RelativeToolTip": "src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAqwHsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:33:18.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompraService.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwGIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:29:05.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:29:00.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Compras.Aplicacion.DTO;
 using Compras.Dominio.Entidad;
 using Compras.Dominio.IRepositorio;
+using Microsoft.AspNetCore.Http;
 
 namespace Compras.Aplicacion.Service
 {
@@ -18,12 +19,14 @@ namespace Compras.Aplicacion.Service
         private readonly ICompraRepository _repo;
         private readonly HttpClient _httpClient;
         private readonly HttpClient _httpClientPro;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public CompraService(ICompraRepository repo, IHttpClientFactory httpClientFactory)
+        public CompraService(ICompraRepository repo, IHttpClientFactory httpClientFactory, IHttpContextAccessor httpContextAccessor)
         {
             _repo = repo;
             _httpClient = httpClientFactory.CreateClient("Movimientos");
             _httpClientPro = httpClientFactory.CreateClient("Productos");
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task CrearCompraAsync(CrearCompraDto dto)
@@ -129,7 +132,12 @@ namespace Compras.Aplicacion.Service
                 DocumentoId = id_compraCab,
                 Detalles = detalle
             };
+            var token = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].ToString();
 
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.Replace("Bearer ", ""));
+            }
             var response = await _httpClient.PostAsJsonAsync("Registrar", movimientoDto);
 
 
@@ -141,6 +149,13 @@ namespace Compras.Aplicacion.Service
 
         public async Task<ProductoDto> ObtenerProductoPorIdAsync(int idProducto)
         {
+            var token = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].ToString();
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClientPro.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.Replace("Bearer ", ""));
+            }
+
             var response = await _httpClientPro.GetAsync($"{idProducto}");
 
             if (!response.IsSuccessStatusCode)
@@ -165,6 +180,13 @@ namespace Compras.Aplicacion.Service
 
         public async Task ActualizarProductoAsync(ProductoDto producto)
         {
+            var token = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].ToString();
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClientPro.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.Replace("Bearer ", ""));
+            }
+
             var response = await _httpClientPro.PutAsJsonAsync($"{producto.Id_producto}", producto);
             if (!response.IsSuccessStatusCode)
             {

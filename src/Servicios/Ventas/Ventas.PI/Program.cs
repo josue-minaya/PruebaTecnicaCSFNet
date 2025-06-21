@@ -32,6 +32,7 @@ builder.Services.AddCustomSwagger();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddCustomCors(origenesPermitidos);
 builder.Services.AddValidatorsFromAssemblyContaining<VentaDetDtoValidator>();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddValidatorsFromAssemblyContaining<CrearVentaDtoValidator>();
 builder.Services.AddFluentValidationAutoValidation();

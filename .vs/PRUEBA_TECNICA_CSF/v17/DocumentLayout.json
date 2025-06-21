@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PruebaTecnicaCSFNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1135DA0D-3F56-4825-B19F-8689977C31D0}|src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1135DA0D-3F56-4825-B19F-8689977C31D0}|src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj|solutionrelative:src\\servicios\\compras\\compras.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.infraestructura\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|solutionrelative:src\\servicios\\compras\\compras.infraestructura\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.infraestructura\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|solutionrelative:src\\servicios\\compras\\compras.infraestructura\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.infraestructura\\extensions\\serilogextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|solutionrelative:src\\servicios\\compras\\compras.infraestructura\\extensions\\serilogextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.infraestructura\\extensions\\jwtserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|solutionrelative:src\\servicios\\compras\\compras.infraestructura\\extensions\\jwtserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.infraestructura\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CDB4FD4-50D2-860B-9827-5E13F770CE71}|src\\Servicios\\Compras\\Compras.Infraestructura\\Compras.Infraestructura.csproj|solutionrelative:src\\servicios\\compras\\compras.infraestructura\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC8E1AF-4A1E-6428-063D-F90F4D6EA330}|src\\Servicios\\Compras\\Compras.Aplicacion\\Compras.Aplicacion.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.aplicacion\\service\\compraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC8E1AF-4A1E-6428-063D-F90F4D6EA330}|src\\Servicios\\Compras\\Compras.Aplicacion\\Compras.Aplicacion.csproj|solutionrelative:src\\servicios\\compras\\compras.aplicacion\\service\\compraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1135DA0D-3F56-4825-B19F-8689977C31D0}|src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\compras\\compras.api\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1135DA0D-3F56-4825-B19F-8689977C31D0}|src\\Servicios\\Compras\\Compras.API\\Compras.API.csproj|solutionrelative:src\\servicios\\compras\\compras.api\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF03028-9D82-473E-B05E-55B5B6E3A8CD}|AuthService.API\\AuthService.API.csproj|d:\\pruebatecnicacsfnet\\authservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF03028-9D82-473E-B05E-55B5B6E3A8CD}|AuthService.API\\AuthService.API.csproj|solutionrelative:authservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|solutionrelative:src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\serilogextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|solutionrelative:src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\serilogextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\jwtserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|solutionrelative:src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\jwtserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86B95E2-A82A-237D-A087-3FC1A6ED0254}|src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Movimientos.Infraestructura.csproj|solutionrelative:src\\servicios\\movimientos\\movimientos.infraestructura\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA6705-9927-4C8A-876E-B0E4CEF27ADA}|src\\Servicios\\Movimientos\\Movimientos.API\\Movimientos.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\movimientos\\movimientos.api\\logs\\log-20250621.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{78EA6705-9927-4C8A-876E-B0E4CEF27ADA}|src\\Servicios\\Movimientos\\Movimientos.API\\Movimientos.API.csproj|solutionrelative:src\\servicios\\movimientos\\movimientos.api\\logs\\log-20250621.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7C33D5-426D-E829-3F63-BE778BE7EEA0}|src\\Servicios\\Ventas\\Ventas.Aplicacion\\Ventas.Aplicacion.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\ventas\\ventas.aplicacion\\service\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7C33D5-426D-E829-3F63-BE778BE7EEA0}|src\\Servicios\\Ventas\\Ventas.Aplicacion\\Ventas.Aplicacion.csproj|solutionrelative:src\\servicios\\ventas\\ventas.aplicacion\\service\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAB87D4-444C-4071-AE33-CF31BD3EAEC5}|src\\Servicios\\Productos\\Productos.API\\Productos.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\productos\\productos.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BAB87D4-444C-4071-AE33-CF31BD3EAEC5}|src\\Servicios\\Productos\\Productos.API\\Productos.API.csproj|solutionrelative:src\\servicios\\productos\\productos.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE4A48-C742-40CC-A900-582C9F8DB442}|src\\Servicios\\Ventas\\Ventas.PI\\Ventas.API.csproj|d:\\pruebatecnicacsfnet\\src\\servicios\\ventas\\ventas.pi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAE4A48-C742-40CC-A900-582C9F8DB442}|src\\Servicios\\Ventas\\Ventas.PI\\Ventas.API.csproj|solutionrelative:src\\servicios\\ventas\\ventas.pi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Infraestructura\\DependencyInjection.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Infraestructura\\DependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:11:23.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwaggerServiceExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:11:19.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerilogExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:10:58.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JWTServiceExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:10:56.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CorsServiceExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:10:47.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.API\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:29:00.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComprasController.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.API\\Controllers\\ComprasController.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.API\\Controllers\\ComprasController.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.API\\Controllers\\ComprasController.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.API\\Controllers\\ComprasController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:09:18.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\AuthService.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\AuthService.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:06:23.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SwaggerServiceExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SwaggerServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:05:52.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SerilogExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\SerilogExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:05:48.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JWTServiceExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\JWTServiceExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:05:36.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompraService.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "RelativeToolTip": "src\\Servicios\\Compras\\Compras.Aplicacion\\Service\\CompraService.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv40AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:29:05.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CorsServiceExtensions.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "RelativeToolTip": "src\\Servicios\\Movimientos\\Movimientos.Infraestructura\\Extensions\\CorsServiceExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:05:20.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "log-20250621.txt",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.API\\Logs\\log-20250621.txt",
+              "RelativeDocumentMoniker": "src\\Servicios\\Movimientos\\Movimientos.API\\Logs\\log-20250621.txt",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Movimientos\\Movimientos.API\\Logs\\log-20250621.txt",
+              "RelativeToolTip": "src\\Servicios\\Movimientos\\Movimientos.API\\Logs\\log-20250621.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-21T21:05:09.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "src\\Servicios\\Productos\\Productos.API\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:43:48.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "RelativeToolTip": "src\\Servicios\\Ventas\\Ventas.PI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:34:48.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VentaService.cs",
+              "DocumentMoniker": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "RelativeDocumentMoniker": "src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "ToolTip": "D:\\PruebaTecnicaCSFNet\\src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "RelativeToolTip": "src\\Servicios\\Ventas\\Ventas.Aplicacion\\Service\\VentaService.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:33:18.259Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

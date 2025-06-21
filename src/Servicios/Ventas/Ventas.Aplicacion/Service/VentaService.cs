@@ -1,6 +1,8 @@
 ﻿using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
+using Microsoft.AspNetCore.Http;
 using Ventas.Aplicacion.DTO;
 using Ventas.Dominio.Entidad;
 using Ventas.Dominio.IRepositorio;
@@ -13,13 +15,14 @@ public class VentaService
     public readonly HttpClient _httpClientMov;
 
     public readonly HttpClient _httpClientPro;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public VentaService(IVentaRepository repo, IHttpClientFactory httpClientFactory)
+    public VentaService(IVentaRepository repo, IHttpClientFactory httpClientFactory, IHttpContextAccessor httpContextAccessor)
     {
         _repo = repo;
         _httpClientMov = httpClientFactory.CreateClient("Movimientos");
         _httpClientPro = httpClientFactory.CreateClient("Productos");
-
+        _httpContextAccessor = httpContextAccessor;
     }
     public async Task CrearVentaAsync(CrearVentaDto dto)
     {
@@ -108,6 +111,7 @@ public class VentaService
     }
     public async Task RegistrarMovimientoVentaAsync(int id_ventaCab,List<CrearMovimientoDetDto> detalle)
     {
+
         var movimientoDto = new CrearMovimientoDto
         {
             TipoMovimiento = 2,
@@ -115,7 +119,12 @@ public class VentaService
             Detalles = detalle
 
         };
+        var token = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].ToString();
 
+        if (!string.IsNullOrEmpty(token))
+        {
+            _httpClientMov.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.Replace("Bearer ", ""));
+        }
         var response = await _httpClientMov.PostAsJsonAsync("Registrar", movimientoDto);
 
 
@@ -126,6 +135,13 @@ public class VentaService
     }
     public async Task<ProductoDto?> ObtenerPrecioProductoAsync(int id_producto)
     {
+
+        var token = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].ToString();
+
+        if (!string.IsNullOrEmpty(token))
+        {
+            _httpClientPro.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.Replace("Bearer ", ""));
+        }
         var response = await _httpClientPro.GetAsync($"{id_producto}");
 
         if (!response.IsSuccessStatusCode)
